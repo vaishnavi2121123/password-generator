@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="password-container">
+      <h2>Password Generator</h2>
+      <div class="password-display">
+        <input type="text" id="password-output" readonly>
+        <button id="copy-button">Copy</button>
+      </div>
+    </div>
+    <div class="options-container">
+      
+      <label for="length-slider">Length:</label>
+      <input type="range" id="length-slider" min="8" max="32" step="1" value="12">
+
+      <label><input type="checkbox" id="uppercase-checkbox">Include Uppercase Letters</label>
+      <label><input type="checkbox" id="lowercase-checkbox">Include Lowercase Letters</label>
+      <label><input type="checkbox" id="numbers-checkbox">Include Numbers</label>
+      <label><input type="checkbox" id="symbols-checkbox">Include Symbols</label>
+
+      <div id="strength-display">Weak</div>
+
+      <button id="generate-button">Generate Password</button>
+      
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+

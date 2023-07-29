@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: black;
+    
+  }
+  
+  .container {
+    display: block;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 50vh;
+    margin-left: 40%;
+    margin-top: 10%;
+    color: white;
+  }
+
+  .password-container{
+    margin-bottom: 5%;
+  }
+  
+  .password-container,
+  .options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+  }
+  
+  .password-display {
+    display: flex;
+    /* gap: 10px; */
+    height: 2rem;
+  }
+  
+  #password-output {
+    flex: 1;
+  }
+
+  #length-slider{
+    background-color: rgb(66, 181, 66);
+  }
+  
+  #copy-button {
+    cursor: pointer;
+  }
+  
+  #strength-display {
+    font-weight: bold;
+  }
+
+  #generate-button{
+    height: 3rem;
+    background-color: rgb(66, 181, 66);
+  }
+  
+  .options-container {
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  /* Mobile view styles */
+  @media (max-width: 600px) {
+    .container {
+      margin: 10px;
+    }
+  }
+  
+  
+  
